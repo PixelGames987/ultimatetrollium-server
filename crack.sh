@@ -16,12 +16,17 @@ echo -e "\n$base"
 echo -e "type: \"$extension\""
 
 case "$extension" in
-        cap|pcap|pcapng)
+        cap)
 		hcxpcapngtool -o "/tmp/handshake.hccapx" "captures/$file"
+		;;
+	pcap)
+		cp "captures/$file" "/tmp/handshake.pcap"
+		aircrack-ng -w wordlists/$wordlist "/tmp/handshake.pcap"
+		exit 0
 		;;
 
         hccapx|22000)
-		cp "captures/$file" "/tmp/handshake.22000"
+		cp "captures/$file" "/tmp/handshake.$extension"
                 ;;
 
         *)
