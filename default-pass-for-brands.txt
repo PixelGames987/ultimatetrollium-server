@@ -1,0 +1,454 @@
+
+**1. SSID Pattern:** `2WIREXXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**2. SSID Pattern:** `3Wireless-Modem-XXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**3. SSID Pattern:** `Alice-12345678`
+**Password Pattern:** 24 lowercase alphanumeric characters (`0-9a-z`)
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghijklmnopqrstuvwxyz0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**4. SSID Pattern:** `Andared`
+**Password Pattern:** Algorithmically generated (See `AndaredKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**5. SSID Pattern:** `AOLBB-XXXXXX`
+**Password Pattern:** 8 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1`
+
+**6. SSID Pattern:** `Arcadyan`
+**Password Pattern:** Algorithmically generated (See `ArcadyanKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**7. SSID Pattern:** `ArnetPirelli`
+**Password Pattern:** Algorithmically generated (See `ArnetPirelliKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**8. SSID Pattern:** `ATTXXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**9. SSID Pattern:** `ATTXXXX`
+**Password Pattern:** 10 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1?1?1`
+
+**10. SSID Pattern:** `ATTXXXXXXX`
+**Password Pattern:** 12 lowercase alphanumeric characters including '+' (`0-9a-z+`)
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghijklmnopqrstuvwxyz0123456789+ ?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**11. SSID Pattern:** `Axtel`
+**Password Pattern:** Algorithmically generated (See `AxtelKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**12. SSID Pattern:** `belkin.xxx`
+**Password Pattern:** 8 characters from (`2-9a-f`)
+**Hashcat Mask/Method:** `-a 3 -1 23456789abcdef ?1?1?1?1?1?1?1?1`
+
+**13. SSID Pattern:** `Belkin.XXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**14. SSID Pattern:** `Belkin_XXXXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**15. SSID Pattern:** `BELLXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**16. SSID Pattern:** `BigPondXXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**17. SSID Pattern:** `BrightBox-XXXXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (implied by context, `0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**18. SSID Pattern:** `BTBusinessHub-XXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**19. SSID Pattern:** `BTHomeHub2-XXXX`
+**Password Pattern:** 10 characters from (`2-9a-f`)
+**Hashcat Mask/Method:** `-a 3 -1 23456789abcdef ?1?1?1?1?1?1?1?1?1?1`
+
+**20. SSID Pattern:** `BTHomeHub-XXXX`
+**Password Pattern:** 10 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method:** `-a 3 ?h?h?h?h?h?h?h?h?h?h`
+
+**21. SSID Pattern:** `BTHub3-XXXX`
+**Password Pattern:** 10 characters from (`2-9a-f`)
+**Hashcat Mask/Method:** `-a 3 -1 23456789abcdef ?1?1?1?1?1?1?1?1?1?1`
+
+**22. SSID Pattern:** `BTHub4-XXXX`
+**Password Pattern:** 10 characters from (`2-9a-f`)
+**Hashcat Mask/Method:** `-a 3 -1 23456789abcdef ?1?1?1?1?1?1?1?1?1?1`
+
+**23. SSID Pattern:** `BTHub5-XXXX`
+**Password Pattern:** 10 characters from (`2-9a-f`)
+**Hashcat Mask/Method:** `-a 3 -1 23456789abcdef ?1?1?1?1?1?1?1?1?1?1`
+
+**24. SSID Pattern:** `CabovisaoSagem`
+**Password Pattern:** Algorithmically generated (See `CabovisaoSagemKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**25. SSID Pattern:** `CenturyLinkXXXX`
+**Password Pattern:** 14 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method:** `-a 3 ?h?h?h?h?h?h?h?h?h?h?h?h?h?h`
+
+**26. SSID Pattern:** `Comtrend`
+**Password Pattern:** Algorithmically generated (See `ComtrendKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**27. SSID Pattern:** `Contattami`
+**Password Pattern:** Algorithmically generated (See `ConnKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**28. SSID Pattern:** `DDW12345`
+**Password Pattern:** Fixed prefix `DDW123` followed by 6 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF DDW123?1?1?1?1?1?1`
+
+**29. SSID Pattern:** `DG123456`
+**Password Pattern:** Fixed prefix `DG1234` followed by 6 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF DG1234?1?1?1?1?1?1`
+
+**30. SSID Pattern:** `Digicom_XXXX`
+**Password Pattern:** 8 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1`
+
+**31. SSID Pattern:** `Discus`
+**Password Pattern:** Algorithmically generated (See `DiscusKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**32. SSID Pattern:** `DJAWEB_XXXXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**33. SSID Pattern:** `Dlink`
+**Password Pattern:** Algorithmically generated (See `DlinkKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**34. SSID Pattern:** `Domino-XXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**35. SSID Pattern:** `E583X-XXXX`
+**Password Pattern:** 8 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d`
+
+**36. SSID Pattern:** `E583X-XXXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**37. SSID Pattern:** `EasyBox-XXXXXX`
+**Password Pattern:** 9 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1`
+
+**38. SSID Pattern:** `EEBrightBox-XXXXXX`
+**Password Pattern:** Three words separated by hyphens (`word-word-word`)
+**Hashcat Mask/Method:** Requires custom wordlist generation/rules (e.g., `wpatoolkit/Word-word-word-Wordlist-Generator`). Not a simple mask.
+
+**39. SSID Pattern:** `Eircom`
+**Password Pattern:** Algorithmically generated (See `EircomKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**40. SSID Pattern:** `ELTEX-XXXX`
+**Password Pattern:** Not specified in content (No password pattern or mask given for this entry.)
+**Hashcat Mask/Method:** Undetermined from source.
+
+**41. SSID Pattern:** `Fastweb`
+**Password Pattern:** Algorithmically generated (See `Fastweb.php`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**42. SSID Pattern:** `FRITZ!Box Fon WLAN XXXX`
+**Password Pattern:** 16 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d?d`
+
+**43. SSID Pattern:** `HG824x`
+**Password Pattern:** Algorithmically generated (See `HG824xKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**44. SSID Pattern:** `HOME-XXXX` (Cisco)
+**Password Pattern:** 16 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**45. SSID Pattern:** `HOME-XXXX` (SMC)
+**Password Pattern:** 12-character serial + 4 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool for the serial part.
+
+**46. SSID Pattern:** `HOME-XXXX`
+**Password Pattern:** 16 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**47. SSID Pattern:** `Huawei`
+**Password Pattern:** Algorithmically generated (See `HuaweiKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**48. SSID Pattern:** `INFINITUMXXXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**49. SSID Pattern:** `Infostrada`
+**Password Pattern:** Algorithmically generated (See `InfostradaKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**50. SSID Pattern:** `InterCable`
+**Password Pattern:** Algorithmically generated (See `InterCableKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**51. SSID Pattern:** `JAZZTEL`
+**Password Pattern:** Algorithmically generated (See `JAZZTEL.php`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**52. SSID Pattern:** `Keenetic-XXXX`
+**Password Pattern:** 8 mixed-case alphanumeric characters (`a-zA-Z0-9`)
+**Hashcat Mask/Method:** `-a 3 ?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d`
+
+**53. SSID Pattern:** `LinksysXXXXX`
+**Password Pattern:** 10 lowercase alphanumeric characters (`0-9a-z`)
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghijklmnopqrstuvwxyz0123456789 ?1?1?1?1?1?1?1?1?1?1`
+
+**54. SSID Pattern:** `Livebox-XXXX`
+**Password Pattern:** Not specified in content (No password pattern or mask given for this entry.)
+**Hashcat Mask/Method:** Undetermined from source.
+
+**55. SSID Pattern:** `Maxcom`
+**Password Pattern:** Algorithmically generated (See `MaxcomKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**56. SSID Pattern:** `Megared`
+**Password Pattern:** Algorithmically generated (See `MegaredKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**57. SSID Pattern:** `MeoPirelli`
+**Password Pattern:** Algorithmically generated (See `MeoPirelliKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**58. SSID Pattern:** `MGTS_GPON_XXXX`
+**Password Pattern:** 8 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method:** `-a 3 ?h?h?h?h?h?h?h?h`
+
+**59. SSID Pattern:** `mifi2`
+**Password Pattern:** 13 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**60. SSID Pattern:** `MiFiXXXX XXX`
+**Password Pattern:** 11 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d?d`
+
+**61. SSID Pattern:** `MobileWifi-XXXX`
+**Password Pattern:** 8 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d`
+
+**62. SSID Pattern:** `NETGEARXX`
+**Password Pattern:** Adjective + Noun + 3 Digits (`adj+noun+3digs`)
+**Hashcat Mask/Method:** Requires custom wordlist generation/rules (e.g., `wpatoolkit/Adj-Noun-Wordlist-Generator`). Not a simple mask.
+
+**63. SSID Pattern:** `NETIASPOT_XXXXXX`
+**Password Pattern:** 12 lowercase alphanumeric characters (`0-9a-z`)
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghijklmnopqrstuvwxyz0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**64. SSID Pattern:** `ONOXXXX`
+**Password Pattern:** 10 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d`
+
+**65. SSID Pattern:** `OPTUS_XXXXX`
+**Password Pattern:** 15 uppercase letters (`A-Z`) followed by 5 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?u?u?u?u?u?u?u?u?u?u?u?u?u?u?u?d?d?d?d?d`
+
+**66. SSID Pattern:** `Orange`
+**Password Pattern 1:** 8 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method 1:** `-a 3 ?h?h?h?h?h?h?h?h`
+**Password Pattern 2:** 12 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method 2:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**67. SSID Pattern:** `Orange-XXXX`
+**Password Pattern:** 8 characters from (`2345679ACEF`)
+**Hashcat Mask/Method:** `-a 3 -1 2345679ACEF ?1?1?1?1?1?1?1?1`
+
+**68. SSID Pattern:** `Ote`
+**Password Pattern:** Algorithmically generated (See `OteKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**69. SSID Pattern:** `OteBAUD`
+**Password Pattern:** Algorithmically generated (See `OteBAUDKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**70. SSID Pattern:** `OteHuawei`
+**Password Pattern:** Algorithmically generated (See `OteHuaweiKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**71. SSID Pattern:** `PBS`
+**Password Pattern:** Algorithmically generated (See `PBSKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**72. SSID Pattern:** `Pirelli`
+**Password Pattern:** Algorithmically generated (See `PirelliKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**73. SSID Pattern:** `PlusnetWireless-XXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**74. SSID Pattern:** `PRIMEHOME-XX`
+**Password Pattern:** 8 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method:** `-a 3 ?h?h?h?h?h?h?h?h`
+
+**75. SSID Pattern:** `Ptv`
+**Password Pattern:** Algorithmically generated (See `PtvKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**76. SSID Pattern:** `ROSTELECOM_XXXX`
+**Password Pattern:** 8 characters from (`ACDEFGHJKMNPQRTUXY3467`)
+**Hashcat Mask/Method:** `-a 3 -1 ACDEFGHJKMNPQRTUXY3467 ?1?1?1?1?1?1?1?1`
+
+**77. SSID Pattern:** `SAGEMCOM_XXXX`
+**Password Pattern:** 8 characters from (`ACDEFGHJKMNPQRTUXY3467`)
+**Hashcat Mask/Method:** `-a 3 -1 ACDEFGHJKMNPQRTUXY3467 ?1?1?1?1?1?1?1?1`
+
+**78. SSID Pattern:** `SBG123456`
+**Password Pattern:** Fixed prefix `SBG1234` followed by 6 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF SBG1234?1?1?1?1?1?1`
+
+**79. SSID Pattern:** `Sitecom`
+**Password Pattern:** Algorithmically generated (See `SitecomKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**80. SSID Pattern:** `SKYXXXXX`
+**Password Pattern:** 8 uppercase letters (`A-Z`)
+**Hashcat Mask/Method:** `-a 3 ?u?u?u?u?u?u?u?u`
+
+**81. SSID Pattern:** `Speedport500`
+**Password Pattern:** Algorithmically generated (See `Speedport500Keygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**82. SSID Pattern:** `SpeedTouchXXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**83. SSID Pattern:** `TAKASHI-XXXXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**84. SSID Pattern:** `TALKTALK-XXXXXX`
+**Password Pattern:** 8 characters from (`ABCDEFGHJKMNPQRTUVWXY346789`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHJKMNPQRTUVWXY346789 ?1?1?1?1?1?1?1?1`
+
+**85. SSID Pattern:** `Technicolor`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**86. SSID Pattern:** `Tecom`
+**Password Pattern:** Algorithmically generated (See `TecomKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**87. SSID Pattern:** `Tele2Tu`
+**Password Pattern:** Algorithmically generated (See `TeletuKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**88. SSID Pattern:** `Telsey`
+**Password Pattern:** Algorithmically generated (See `TelseyKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**89. SSID Pattern:** `TELUSXXXX`
+**Password Pattern:** 10 lowercase hexadecimal characters (`0-9a-f`)
+**Hashcat Mask/Method:** `-a 3 ?h?h?h?h?h?h?h?h?h?h`
+
+**90. SSID Pattern:** `TelstraXXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**91. SSID Pattern:** `TG123456`
+**Password Pattern:** Fixed prefix `TG1234` followed by 6 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF TG1234?1?1?1?1?1?1`
+
+**92. SSID Pattern:** `ThomsonXXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**93. SSID Pattern:** `TIM_PN51T_XXXX`
+**Password Pattern:** 8 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d`
+
+**94. SSID Pattern:** `TNCAPXXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**95. SSID Pattern:** `TPG-XXXX`
+**Password Pattern:** Not specified in content (No password pattern or mask given for this entry.)
+**Hashcat Mask/Method:** Undetermined from source.
+
+**96. SSID Pattern:** `TP-LINK_Pocket_XXXX_MMMMMM`
+**Password Pattern:** Not specified in content (No password pattern or mask given for this entry.)
+**Hashcat Mask/Method:** Undetermined from source.
+
+**97. SSID Pattern:** `TP-LINK_XXXXXX`
+**Password Pattern:** 8 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1`
+
+**98. SSID Pattern:** `U12345678`
+**Password Pattern:** Fixed prefix `U123456` followed by 6 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF U123456?1?1?1?1?1?1`
+
+**99. SSID Pattern:** `UNITE-XXXX`
+**Password Pattern:** 8 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d`
+
+**100. SSID Pattern:** `UPCXXXXXXX`
+**Password Pattern:** 8 uppercase letters (`A-Z`)
+**Hashcat Mask/Method:** `-a 3 ?u?u?u?u?u?u?u?u`
+
+**101. SSID Pattern:** `Verizon`
+**Password Pattern:** Algorithmically generated (See `VerizonKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**102. SSID Pattern:** `Verizon MIFIXXXX XXXX`
+**Password Pattern:** 11 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d?d`
+
+**103. SSID Pattern:** `virginmediaXXXXXXX`
+**Password Pattern:** 8 lowercase letters (excluding 'i')
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghjklmnpqrstuvwxyz ?1?1?1?1?1?1?1?1`
+
+**104. SSID Pattern:** `VirginMobile MiFiXXXX XXX`
+**Password Pattern:** 11 digits (`0-9`)
+**Hashcat Mask/Method:** `-a 3 ?d?d?d?d?d?d?d?d?d?d?d`
+
+**105. SSID Pattern:** `VMXXXXXX-2G`
+**Password Pattern:** 8 lowercase letters (excluding 'i')
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghjklmnpqrstuvwxyz ?1?1?1?1?1?1?1?1`
+
+**106. SSID Pattern:** `VMXXXXXX-5G`
+**Password Pattern:** 8 lowercase letters (excluding 'i')
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghjklmnpqrstuvwxyz ?1?1?1?1?1?1?1?1`
+
+**107. SSID Pattern:** `WifimediaR`
+**Password Pattern:** Algorithmically generated (See `WifimediaRKeygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**108. SSID Pattern:** `WiFi-Arnet-XXXX` (Pirelli)
+**Password Pattern:** 10 lowercase alphanumeric characters (`0-9a-z`)
+**Hashcat Mask/Method:** `-a 3 -1 abcdefghijklmnopqrstuvwxyz0123456789 ?1?1?1?1?1?1?1?1?1?1`
+
+**109. SSID Pattern:** `WiFi-Arnet-XXXX`
+**Password Pattern:** 13 mixed-case alphanumeric characters (`0-9a-zA-Z`)
+**Hashcat Mask/Method:** `-a 3 ?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d?l?u?d`
+
+**110. SSID Pattern:** `WLAN`
+**Password Pattern:** Algorithmically generated (See `Wlan2Keygen.cpp`, `Wlan6Keygen.cpp`)
+**Hashcat Mask/Method:** Requires custom generation logic/tool.
+
+**111. SSID Pattern:** `WLAN1-XXXXXX`
+**Password Pattern:** 10 uppercase hexadecimal characters (`0-9A-F`)
+**Hashcat Mask/Method:** `-a 3 -1 0123456789ABCDEF ?1?1?1?1?1?1?1?1?1?1`
+
+**112. SSID Pattern:** `XXXXX`
+**Password Pattern:** 16 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1?1`
+
+**113. SSID Pattern:** `ZyXELXXXXXX`
+**Password Pattern:** 13 uppercase alphanumeric characters (`0-9A-Z`)
+**Hashcat Mask/Method:** `-a 3 -1 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?1?1?1?1?1?1?1?1?1?1?1?1?1`
